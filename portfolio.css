@@ -1,0 +1,321 @@
+/*body{
+	background-color:white;
+	width:100%;
+}
+
+html,body{
+	margin:0px;
+	padding:0px;
+}
+figcaption{
+	font: 500 2em/1.5em 'Montserrat';
+	color:#2d3c49;
+}
+.upperContainer{
+	border-bottom:solid 3.5px #7d97ad;
+	border-radius:5px;
+	height:115px;
+	width:950px;
+	position:relative;
+	left:50%;
+	margin-left:-475px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.name, .title{ 
+
+	margin:0px;
+	padding:0px;
+	color:#2d3c49;
+	
+}
+.logo{
+	position: absolute;
+}
+.sectionName{
+	font: 500 2em/1.5em 'Montserrat';
+	color:#7d97ad;
+}
+.mainpic{
+position:relative;
+left:-4.3%;
+}
+.name{
+	position:relative;
+	top:10%;
+	font: 300 2em/1.5em 'Montserrat';
+}
+.title{
+	margin-top:5px;
+	position:relative;
+	font: 400 2em/1.5em 'Montserrat';
+}
+.main{
+	width:950px;
+	height:400px;
+	margin:30px;
+		position:relative;
+	left:50%;
+	margin-left:-475px;
+		margin-bottom:70px;
+}
+.secondary{
+	width:950px;
+	height:355px;
+	left:50%;
+	position:relative;
+	margin-left:-475px;
+}
+.module{
+	width:282px;
+	margin:15px;
+	height:260px;
+	display:inline-block;
+				background-image:url(drinks.jpg);
+		background-size:cover;
+		cursor:pointer;
+} 
+.module:hover{
+	outline:solid grey 3px;
+}
+@media screen and (max-width:965px){
+	.upperContainer{
+width:100%;
+left:0%;
+margin-left: 0px;
+	}
+	.main{
+		width:100%;
+		left:0%;
+		margin-left: 0px;
+	}
+	.secondary{
+		width:320px;
+		height:960px;
+		left:50%;
+		margin-left:-160px;
+	}
+	.module{
+		clear:both;
+		margin-bottom:35px;
+	}
+	.sectionName{
+		text-align:center;
+	}
+	.mountain{
+		width:100%;
+		left:0%;
+		margin-left: 0px;
+	}
+	.mainpic{
+		width:100%;
+		left:0%;
+		margin-left: 0px;
+	}
+	.name, .title{ 
+
+	margin-right:20px;
+	padding:0px;
+	color:#2d3c49;
+		font: 300 1.7em/1.5em 'Montserrat';
+	
+}
+
+}
+@media screen and (max-width:350px){
+	.title{
+	margin-top:5px;
+	position:relative;
+	font: 400 1.5em/1.5em 'Montserrat';
+}
+.name{
+	position:relative;
+	top:10%;
+	font: 300 1.5em/1.5em 'Montserrat';
+}
+.module{
+	margin:0px;
+	margin-bottom:44px;
+}
+.secondary{
+	width:100%;
+	margin-left:-45%;
+}
+
+	}
+	@media screen and (max-width:330px){
+		.secondary{
+	width:97%;
+	margin-left:-48%;
+}
+.module{
+	width:275px;
+}
+.mpic{
+	width:275px;
+}
+	.name, .title{ 
+
+	margin-right:20px;
+	padding:0px;
+	color:#2d3c49;
+		font: 300 1.3em/1.5em 'Montserrat';
+	
+}
+	}*/
+	body{
+     background-color:white;
+     width:100%;
+}
+ html,body{
+     margin:0px;
+     padding:0px;
+}
+ figcaption{
+     font: 500 2em/1.5em 'Montserrat';
+     color:#2d3c49;
+}
+ .upperContainer{
+     border-bottom:solid 3.5px #7d97ad;
+     border-radius:5px;
+     height:115px;
+     width:950px;
+     position:relative;
+     left:50%;
+     margin-left:-475px;
+     flex-direction: row;
+     flex-wrap: nowrap;
+}
+ .name, .title{
+     margin:0px;
+     padding:0px;
+     color:#2d3c49;
+}
+ .logo{
+     position: absolute;
+}
+ .sectionName{
+     font: 500 2em/1.5em 'Montserrat';
+     color:#7d97ad;
+}
+ .mainpic{
+     position:relative;
+     left:-4.3%;
+}
+ .name{
+     position:relative;
+     top:10%;
+     font: 300 2em/1.5em 'Montserrat';
+}
+ .title{
+     margin-top:5px;
+     position:relative;
+     font: 400 2em/1.5em 'Montserrat';
+}
+ .main{
+     width:950px;
+     height:400px;
+     margin:30px;
+     position:relative;
+     left:50%;
+     margin-left:-475px;
+     margin-bottom:70px;
+}
+ .secondary{
+     width:950px;
+     height:355px;
+     left:50%;
+     position:relative;
+     margin-left:-475px;
+}
+ .module{
+     width:282px;
+     margin:15px;
+     height:260px;
+     display:inline-block;
+     background-image:url(drinks.jpg);
+     background-size:cover;
+     cursor:pointer;
+}
+ .module:hover{
+     outline:solid grey 3px;
+}
+ @media screen and (max-width:965px){
+     .upperContainer{
+         width:100%;
+         left:0%;
+         margin-left: 0px;
+    }
+     .main{
+         width:100%;
+         left:0%;
+         margin-left: 0px;
+    }
+     .secondary{
+         width:320px;
+         height:960px;
+         left:50%;
+         margin-left:-160px;
+    }
+     .module{
+         clear:both;
+         margin-bottom:35px;
+    }
+     .sectionName{
+         text-align:center;
+    }
+     .mountain{
+         width:100%;
+         left:0%;
+         margin-left: 0px;
+    }
+     .mainpic{
+         width:100%;
+         left:0%;
+         margin-left: 0px;
+    }
+     .name, .title{
+         margin-right:20px;
+         padding:0px;
+         color:#2d3c49;
+         font: 300 1.7em/1.5em 'Montserrat';
+    }
+}
+ @media screen and (max-width:350px){
+     .title{
+         margin-top:5px;
+         position:relative;
+         font: 400 1.5em/1.5em 'Montserrat';
+    }
+     .name{
+         position:relative;
+         top:10%;
+         font: 300 1.5em/1.5em 'Montserrat';
+    }
+     .module{
+         margin:0px;
+         margin-bottom:44px;
+    }
+     .secondary{
+         width:100%;
+         margin-left:-45%;
+    }
+}
+ @media screen and (max-width:330px){
+     .secondary{
+         width:97%;
+         margin-left:-48%;
+    }
+     .module{
+         width:275px;
+    }
+     .mpic{
+         width:275px;
+    }
+     .name, .title{
+         margin-right:20px;
+         padding:0px;
+         color:#2d3c49;
+         font: 300 1.3em/1.5em 'Montserrat';
+    }
+}
